@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        img {
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <ul >
+                <li><a  href="portfolio.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="https://github.com/meghajibhakate" target="_blank">Github</a></li>
+                <li><a  href="https://www.linkedin.com/in/megha-jibhakate-281942242/" target="_blank">Linkedin</a>
+                </li>
+                <button>
+                    <a href="#"
+                        target="_blank" class="download" download>Download resume</a>
+                </button>
+            </ul>
+        </nav>
+
+        <div class="hamburger" onclick="myFunction()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </div>
+
+        <div class="dropdown" id="drop" style="display: none" ;>
+            <a class="link" href="portfolio.html">Home</a>
+            <a class="link" href="about.html">About</a>
+            <a class="link" href="https://github.com/meghajibhakate" >Github</a>
+            <a class="link" href="https://www.linkedin.com/in/megha-jibhakate-281942242/">Linkedin</a>
+            <a class="link" href="https://canva.me/Nr4zXz56urb"  class="download">Download resume</a>
+        </div>
+        <script>
+            function myFunction(dropdown) {
+                if (document.getElementById("drop").style.display == "none") {
+                    document.getElementById("drop").style.display = "flex";
+                } else {
+                    document.getElementById("drop").style.display = "none";
+                }
+            }
+        </script>
+
+
+    </header>
+
+    <div class="container">
+        <div class="img">
+            <img class="image" src="https://i.pinimg.com/originals/4b/fb/d6/4bfbd686b2cf38368a519c34f2709c82.jpg" />
+        </div>
+        <div class="name">
+            <h1>Hello,</h1>
+            <h1>I'm Megha Jibhakate</h1>
+            <p class="para1">Aspiring Front-end Developer</p><br>
+            <p class="para2"> My name is Megha Jibhakate. I am from Maharashtra Bhandara and currently I am doing a
+                Frontend developer course in Sajhe Sapne foundation.</p>
+            <div class="here">
+                <p>Here is my Projects</p>
+                <button id="pro">
+                    <a href="https://github.com/meghajibhakate" class="Projects">My Projects</a>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <div class="foot">
+    <footer class="foot">
+        
+        <p><b>meghajibhakate18@gmail.com / Mobile.8698181392<b></p>
+    </footer>
+</div>
+</body>
+
+</html>

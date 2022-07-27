@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <ul>
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://github.com/meghajibhakate" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/megha-jibhakate-281942242/" target="_blank">Linkedin</a>
+                </li>
+                <button>
+                    <a href="https://i.pinimg.com/originals/4b/fb/d6/4bfbd686b2cf38368a519c34f2709c82.jpg"
+                        target="_blank" class="download" download>View resume</a>
+                </button>
+            </ul>
+        </nav>
+
+        <div class="hamburger" onclick="myFunction()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </div>
+
+        <div class="dropdown" id="drop" style="display: none" ;>
+            <a class="link" href="portfolio.html">Home</a>
+            <a class="link" href="about.html">About</a>
+            <a class="link" href="https://github.com/meghajibhakate" target="_blank">Github</a>
+            <a class="link" href="https://www.linkedin.com/in/megha-jibhakate-281942242/" target="_blank">Linkedin</a>
+            <a class="link" href=" " target="_blank">Download resume</a>
+        </div>
+        <script>
+            function myFunction(dropdown) {
+                if (document.getElementById("drop").style.display == "none") {
+                    document.getElementById("drop").style.display = "flex";
+                } else {
+                    document.getElementById("drop").style.display = "none";
+                }
+            }
+        </script>
+
+    </header>
+    <br>
+    <br>
+    <br>
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p class="heading">Hii,I am Megha Jibhakate. I am from Maharashtra. Currently I am doing a Frontend developer course
+            at SajheSapne foundation and doing graduation in the B.A. Programme from RTM Nagpur University. I have
+            learnt python programming language, HTML, CSS, and now I am learning JavaScript. I have made Three projects
+            in python.</p> <strong>1 KBC- Game</strong> I have made this project in python with using this 13Questions, 4
+        options, 2lifeline, user input, milestone, amount, and
+        Quit Option.<br><br><strong> 2 Chatbot- </strong>
+        Create a chatbot for Restaurant Menu using this facture like If-else, Variable<br><br>
+        <strong>3 Guessing Game</strong><br><br><strong style="text-align: center;">Contact</strong><br><br><strong>Email
+            Id:-</strong><br>meghajiibhakate18@gmail.com<br><strong>Mobile-</strong>8698181392
+        </p>
+    </div>
+   
+
+
+
+
+</body>
+
+</html>
